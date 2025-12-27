@@ -44,7 +44,7 @@ a:hover,
 nav a:hover,
 nav a.active {
     text-decoration: underline;
-    background-color: #d63384;
+    background-color: #b89daa;
     border-radius: 5px 0 5px 0;
     padding: 3px;
 }
