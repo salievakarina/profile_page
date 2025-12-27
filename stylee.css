@@ -1,0 +1,138 @@
+...., [12/27/2025 7:33 AM]
+/* ===== ОБЩЕЕ ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+/* ===== ФОН ГЛАВНОЙ ===== */
+body.home {
+    background-image: url("portfolio3.jpg.jpg"); 
+    background-size: cover;
+    background-position: center;
+}
+
+/* ===== РОЗОВАЯ ВУАЛЬ ===== */
+.overlay {
+    min-height: 100vh;
+    background: rgba(255, 192, 203, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ===== НАВИГАЦИЯ ===== */
+nav {
+    margin-top: 30px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    position: relative;
+}
+
+a:hover,
+nav a:hover,
+nav a.active {
+    text-decoration: underline;
+    background-color: #d63384;
+    border-radius: 5px 0 5px 0;
+    padding: 3px;
+}
+
+/* ===== КАРТОЧКА ===== */
+.card {
+    margin-top: 120px;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 40px 50px;
+    border-radius: 30px;
+    text-align: center;
+    backdrop-filter: blur(8px);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    color: black;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
+
+.text {
+    font-size: 16px;
+    color: black;
+    margin-top: 20px;
+}
+
+/* ===== ВНУТРЕННИЕ СТРАНИЦЫ ===== */
+body.page {
+    background: linear-gradient(135deg, #ffd1dc, #ffe6f0);
+}
+
+.content {
+    max-width: 800px;
+    margin: 100px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #d63384;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+/* ===== ПРОЕКТЫ ===== */
+.projects li {
+    margin: 10px 0;
+}
+
+...., [12/27/2025 7:33 AM]
+/* ===== КОНТАКТЫ ===== */
+.contacts {
+    margin-top: 30px;
+}
+
+.contact-item {
+    background: #ffe6f0;
+    padding: 15px 20px;
+    border-radius: 18px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.contact-item a {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+}
+    header, main {
+    background: rgba(255, 182, 193, 0.6); /* нежно-розовый */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
